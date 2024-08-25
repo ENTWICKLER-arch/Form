@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div style="border:1px solid transparent; width:360px; margin:50px auto;">
+        <form action="about.html">
+
+            <fieldset style="width:280px;">
+                <Legend>
+                    Registration
+                </Legend>
+
+
+                <table>
+                    <!-- User ID -->
+                    <tr>
+                        <td>
+                            <label for="">User ID</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="" required>
+                        </td>
+                    </tr>
+
+                    <!-- password -->
+                    <tr>
+                        <td>
+                            <label for="">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="" id="" required>
+                        </td>
+                    </tr>
+
+                    <!-- Gender : radio button -->
+                    <tr>
+                        <td>
+                            <label for="gd">Gender:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" id="gd" value="Male">Male
+                            <input type="radio" name="gender" id="" value="Female">Female
+                        </td>
+                    </tr>
+
+
+                    <!-- AGE: numeric text -->
+
+                    <tr>
+                        <td><label for="">AGE:</label></td>
+                        <td>
+                            <input type="number" name="" id="" min="18" max="40">
+                        </td>
+                    </tr>
+
+
+
+                    <!-- slider : range -->
+                    <tr>
+                        <td><label for="">Feedback</label></td>
+                        <td>
+                            <input type="range" name="" id="" min="1" max="10" value="2" step="1">
+                        </td>
+                    </tr>
+
+                    <!-- Fileupload : file -->
+                    <tr>
+                        <td><label for="">FileUpload</label></td>
+                        <td>
+                            <input type="file" name="" id="">
+                        </td>
+                    </tr>
+
+
+                    <!-- Interest : Checkbox -->
+
+                    <tr>
+                        <td><label for="inte">Interest</label></td>
+                        <td>
+                            <input type="checkbox" name="interest" id="inte" value="Hockey">Hockey
+                            <input type="checkbox" name="interest" id="" value="Cricket">Cricket
+                            <input type="checkbox" name="interest" id="" value="Football">Football
+                        </td>
+                    </tr>
+
+
+                    <!-- DOB : date -->
+                    <tr>
+                        <td><label for="">DOB:</label></td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
+                    </tr>
+
+                    <!-- email : email -->
+                    <tr>
+                        <td><label for="">Email</label></td>
+                        <td>
+                            <input type="email" name="" id="">
+                        </td>
+                    </tr>
+
+                    <!-- time: time -->
+                    <tr>
+                        <td><label for="">Time:</label></td>
+                        <td>
+                            <input type="time" name="" id="">
+                        </td>
+                    </tr>
+
+
+                    <!--  color picker-> -->
+                    <tr>
+                        <td>Color selection:</td>
+                        <td>
+                            <input type="color" name="" id="" value="#fff">
+                        </td>
+                    </tr>
+
+
+                    <!-- contact : textbox -->
+                     <tr>
+                        <td><label for="">Contact</label></td>
+                        <td>
+                            <input type="text" name="" id="" pattern="[6-9][0-9]{9}">
+                        </td>
+                     </tr>
+
+
+
+
+                    <!-- Dropdwon list : city -->
+
+                    <tr>
+                        <td><label for="city">City</label></td>
+                        <td>
+                            <select name="" id="city">
+                                <option value="">--select city--</option>
+                                <optgroup label="urban">
+                                    <option value="delhi">Delhi</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Gurgaon">Gurgaon</option>
+                                </optgroup>
+
+                                <optgroup label="rural">
+                                    <option value="Dhatir">Delhi</option>
+                                    <option value="">Ghughera</option>
+                                    <option value="">Raniganj</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <!-- submit Button -->
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Submit" style="width:173px;">
+                        </td>
+                    </tr>
+
+                </table>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
